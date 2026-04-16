@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Tech stack organized in 4 categories">
+  <defs>
+    <linearGradient id="stackbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FDFBF4"/>
+      <stop offset="100%" stop-color="#F4FBFD"/>
+    </linearGradient>
+    <radialGradient id="sblob1">
+      <stop offset="0%" stop-color="#46AABE" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#46AABE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sblob2">
+      <stop offset="0%" stop-color="#FFC85A" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#FFC85A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="380" rx="24" fill="url(#stackbg)"/>
+  <circle cx="100" cy="80" r="120" fill="url(#sblob1)">
+    <animate attributeName="cx" values="100;140;80;100" dur="20s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1100" cy="300" r="140" fill="url(#sblob2)">
+    <animate attributeName="cx" values="1100;1060;1120;1100" dur="24s" repeatCount="indefinite"/>
+  </circle>
+
+  <g font-family="-apple-system, 'Inter', sans-serif">
+
+    <g transform="translate(40, 40)">
+      <text font-size="11" font-weight="600" fill="#0F6A85" letter-spacing="1.5" text-transform="uppercase">
+        <tspan x="0" y="0">SOFTWARE &amp; AUTOMATION</tspan>
+      </text>
+      <g transform="translate(0, 20)">
+        <g transform="translate(0, 0)"><rect width="260" height="80" rx="16" fill="rgba(255,255,255,0.7)" stroke="rgba(70,170,190,0.15)" stroke-width="1"/>
+          <g transform="translate(14, 14)">
+            <rect width="28" height="28" rx="8" fill="#CFECF3"/>
+            <text x="14" y="20" font-size="14" text-anchor="middle">🐍</text>
+          </g>
+          <text x="54" y="28" font-size="13" font-weight="600" fill="#063044">Python</text>
+          <text x="54" y="46" font-size="11" fill="#2A5870">Core language</text>
+          <g transform="translate(14, 52)" font-size="10" font-weight="500">
+            <g><rect width="40" height="18" rx="5" fill="#CFECF3"/><text x="20" y="13" fill="#0F6A85" text-anchor="middle">3.12</text></g>
+            <g transform="translate(48, 0)"><rect width="50" height="18" rx="5" fill="#FFECB5"/><text x="25" y="13" fill="#A06A0A" text-anchor="middle">pytest</text></g>
+          </g>
+        </g>
+        <g transform="translate(274, 0)"><rect width="260" height="80" rx="16" fill="rgba(255,255,255,0.7)" stroke="rgba(70,170,190,0.15)" stroke-width="1"/>
+          <g transform="translate(14, 14)">
+            <rect width="28" height="28" rx="8" fill="#FFECB5"/>
+            <text x="14" y="20" font-size="14" text-anchor="middle">🎭</text>
+          </g>
+          <text x="54" y="28" font-size="13" font-weight="600" fill="#063044">Test automation</text>
+          <text x="54" y="46" font-size="11" fill="#2A5870">10+ years building</text>
+          <g transform="translate(14, 52)" font-size="10" font-weight="500">
+            <g><rect width="68" height="18" rx="5" fill="#FFD9CC"/><text x="34" y="13" fill="#B53E22" text-anchor="middle">Playwright</text></g>
+            <g transform="translate(76, 0)"><rect width="56" height="18" rx="5" fill="#D6EDD8"/><text x="28" y="13" fill="#3B7A45" text-anchor="middle">Selenium</text></g>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <g transform="translate(580, 40)">
+      <text font-size="11" font-weight="600" fill="#A06A0A" letter-spacing="1.5">
+        <tspan x="0" y="0">DEVOPS &amp; INFRASTRUCTURE</tspan>
+      </text>
+      <g transform="translate(0, 20)">
+        <g transform="translate(0, 0)"><rect width="260" height="80" rx="16" fill="rgba(255,255,255,0.7)" stroke="rgba(255,200,90,0.2)" stroke-width="1"/>
+          <g transform="translate(14, 14)">
+            <rect width="28" height="28" rx="8" fill="#F4E0EE"/>
+            <text x="14" y="20" font-size="14" text-anchor="middle">🐳</text>
+          </g>
+          <text x="54" y="28" font-size="13" font-weight="600" fill="#063044">Containers &amp; orchestration</text>
+          <text x="54" y="46" font-size="11" fill="#2A5870">Production deployment</text>
+          <g transform="translate(14, 52)" font-size="10" font-weight="500">
+            <g><rect width="50" height="18" rx="5" fill="#CFECF3"/><text x="25" y="13" fill="#0F6A85" text-anchor="middle">Docker</text></g>
+            <g transform="translate(58, 0)"><rect width="80" height="18" rx="5" fill="#F4E0EE"/><text x="40" y="13" fill="#A03878" text-anchor="middle">Kubernetes</text></g>
+          </g>
+        </g>
+        <g transform="translate(274, 0)"><rect width="260" height="80" rx="16" fill="rgba(255,255,255,0.7)" stroke="rgba(255,200,90,0.2)" stroke-width="1"/>
+          <g transform="translate(14, 14)">
+            <rect width="28" height="28" rx="8" fill="#FFECB5"/>
+            <text x="14" y="20" font-size="14" text-anchor="middle">☁️</text>
+          </g>
+          <text x="54" y="28" font-size="13" font-weight="600" fill="#063044">Cloud &amp; IaC</text>
+          <text x="54" y="46" font-size="11" fill="#2A5870">Scalable architectures</text>
+          <g transform="translate(14, 52)" font-size="10" font-weight="500">
+            <g><rect width="38" height="18" rx="5" fill="#CFECF3"/><text x="19" y="13" fill="#0F6A85" text-anchor="middle">AWS</text></g>
+            <g transform="translate(46, 0)"><rect width="66" height="18" rx="5" fill="#FFECB5"/><text x="33" y="13" fill="#A06A0A" text-anchor="middle">Terraform</text></g>
+            <g transform="translate(120, 0)"><rect width="76" height="18" rx="5" fill="#D6EDD8"/><text x="38" y="13" fill="#3B7A45" text-anchor="middle">GitHub CI</text></g>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <g transform="translate(40, 180)">
+      <text font-size="11" font-weight="600" fill="#3B7A45" letter-spacing="1.5">
+        <tspan x="0" y="0">MACHINE LEARNING</tspan>
+      </text>
+      <g transform="translate(0, 20)">
+        <g transform="translate(0, 0)"><rect width="260" height="80" rx="16" fill="rgba(255,255,255,0.7)" stroke="rgba(125,186,136,0.2)" stroke-width="1"/>
+          <g transform="translate(14, 14)">
+            <rect width="28" height="28" rx="8" fill="#D6EDD8"/>
+            <text x="14" y="20" font-size="14" text-anchor="middle">🧠</text>
+          </g>
+          <text x="54" y="28" font-size="13" font-weight="600" fill="#063044">Models &amp; training</text>
+          <text x="54" y="46" font-size="11" fill="#2A5870">Classical ML and deep learning</text>
+          <g transform="translate(14, 52)" font-size="10" font-weight="500">
+            <g><rect width="72" height="18" rx="5" fill="#FFECB5"/><text x="36" y="13" fill="#A06A0A" text-anchor="middle">scikit-learn</text></g>
+            <g transform="translate(80, 0)"><rect width="60" height="18" rx="5" fill="#D6EDD8"/><text x="30" y="13" fill="#3B7A45" text-anchor="middle">LightGBM</text></g>
+            <g transform="translate(148, 0)"><rect width="56" height="18" rx="5" fill="#FFD9CC"/><text x="28" y="13" fill="#B53E22" text-anchor="middle">PyTorch</text></g>
+          </g>
+        </g>
+        <g transform="translate(274, 0)"><rect width="260" height="80" rx="16" fill="rgba(255,255,255,0.7)" stroke="rgba(125,186,136,0.2)" stroke-width="1"/>
+          <g transform="translate(14, 14)">
+            <rect width="28" height="28" rx="8" fill="#CFECF3"/>
+            <text x="14" y="20" font-size="14" text-anchor="middle">📊</text>
+          </g>
+          <text x="54" y="28" font-size="13" font-weight="600" fill="#063044">MLOps tooling</text>
+          <text x="54" y="46" font-size="11" fill="#2A5870">Track, explain, deploy</text>
+          <g transform="translate(14, 52)" font-size="10" font-weight="500">
+            <g><rect width="50" height="18" rx="5" fill="#D6EDD8"/><text x="25" y="13" fill="#3B7A45" text-anchor="middle">MLflow</text></g>
+            <g transform="translate(58, 0)"><rect width="42" height="18" rx="5" fill="#FFECB5"/><text x="21" y="13" fill="#A06A0A" text-anchor="middle">SHAP</text></g>
+            <g transform="translate(108, 0)"><rect width="62" height="18" rx="5" fill="#F4E0EE"/><text x="31" y="13" fill="#A03878" text-anchor="middle">FastAPI</text></g>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <g transform="translate(580, 180)">
+      <text font-size="11" font-weight="600" fill="#A03878" letter-spacing="1.5">
+        <tspan x="0" y="0">AI ENGINEERING</tspan>
+      </text>
+      <g transform="translate(0, 20)">
+        <g transform="translate(0, 0)"><rect width="260" height="80" rx="16" fill="rgba(255,255,255,0.7)" stroke="rgba(208,138,190,0.2)" stroke-width="1"/>
+          <g transform="translate(14, 14)">
+            <rect width="28" height="28" rx="8" fill="#FFD9CC"/>
+            <text x="14" y="20" font-size="14" text-anchor="middle">🤖</text>
+          </g>
+          <text x="54" y="28" font-size="13" font-weight="600" fill="#063044">LLMs &amp; agents</text>
+          <text x="54" y="46" font-size="11" fill="#2A5870">Multi-agent orchestration</text>
+          <g transform="translate(14, 52)" font-size="10" font-weight="500">
+            <g><rect width="62" height="18" rx="5" fill="#D6EDD8"/><text x="31" y="13" fill="#3B7A45" text-anchor="middle">LangGraph</text></g>
+            <g transform="translate(70, 0)"><rect width="74" height="18" rx="5" fill="#CFECF3"/><text x="37" y="13" fill="#0F6A85" text-anchor="middle">Claude API</text></g>
+          </g>
+        </g>
+        <g transform="translate(274, 0)"><rect width="260" height="80" rx="16" fill="rgba(255,255,255,0.7)" stroke="rgba(208,138,190,0.2)" stroke-width="1"/>
+          <g transform="translate(14, 14)">
+            <rect width="28" height="28" rx="8" fill="#F4E0EE"/>
+            <text x="14" y="20" font-size="14" text-anchor="middle">🔍</text>
+          </g>
+          <text x="54" y="28" font-size="13" font-weight="600" fill="#063044">RAG &amp; vector search</text>
+          <text x="54" y="46" font-size="11" fill="#2A5870">Context-aware retrieval</text>
+          <g transform="translate(14, 52)" font-size="10" font-weight="500">
+            <g><rect width="62" height="18" rx="5" fill="#FFECB5"/><text x="31" y="13" fill="#A06A0A" text-anchor="middle">ChromaDB</text></g>
+            <g transform="translate(70, 0)"><rect width="72" height="18" rx="5" fill="#FFD9CC"/><text x="36" y="13" fill="#B53E22" text-anchor="middle">embeddings</text></g>
+          </g>
+        </g>
+      </g>
+    </g>
+
+  </g>
+</svg>
