@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-label="Versión en español">
+  <defs>
+    <linearGradient id="esbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FEFDFA"/>
+      <stop offset="100%" stop-color="#FEFDF9"/>
+    </linearGradient>
+    <radialGradient id="e1">
+      <stop offset="0%" stop-color="#FFC85A" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#FFC85A" stop-opacity="0.0"/>
+    </radialGradient>
+    <radialGradient id="e2">
+      <stop offset="0%" stop-color="#D08ABE" stop-opacity="0.11"/>
+      <stop offset="100%" stop-color="#D08ABE" stop-opacity="0.0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="420" rx="28" fill="url(#esbg)"/>
+  <circle cx="1100" cy="100" r="160" fill="url(#e1)">
+    <animate attributeName="cy" values="100;140;60;100" dur="24s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="340" r="180" fill="url(#e2)">
+    <animate attributeName="cx" values="100;160;40;100" dur="26s" repeatCount="indefinite"/>
+  </circle>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif">
+    <g transform="translate(60, 60)">
+      <rect width="180" height="32" rx="16" fill="rgba(255,255,255,0.9)"/>
+      <text x="90" y="21" font-size="13" font-weight="500" fill="#A06A0A" text-anchor="middle">🇪🇸 Versión en español</text>
+    </g>
+
+    <g transform="translate(60, 120)">
+      <text fill="#063044" font-size="16" font-weight="400">
+        <tspan x="0" dy="0">Construyo sistemas en producción. Mi base es </tspan>
+        <tspan font-weight="700" fill="#0F6A85">software engineering con experiencia</tspan>
+        <tspan x="0" dy="26" font-weight="700" fill="#0F6A85">profunda en automatización de tests y DevOps</tspan>
+        <tspan font-weight="400" fill="#063044"> — arquitecturas de CI/CD, frameworks de</tspan>
+        <tspan x="0" dy="26">automation y entrega continua de software fiable. Ese mismo rigor es el que aporto</tspan>
+        <tspan x="0" dy="26">ahora a </tspan>
+        <tspan font-weight="700" fill="#FF9178">MLOps y AI Engineering</tspan>
+        <tspan font-weight="400" fill="#063044">.</tspan>
+      </text>
+    </g>
+
+    <g transform="translate(60, 262)">
+      <text fill="#2A5870" font-size="14" font-weight="400">
+        <tspan x="0" dy="0">Actualmente construyo </tspan>
+        <tspan font-weight="600" fill="#0F6A85">NomadOptima</tspan>
+        <tspan font-weight="400" fill="#2A5870"> y un portfolio de proyectos de IA (agentes,</tspan>
+        <tspan x="0" dy="22">visión artificial, fine-tuning de LLMs). Todos con el mismo principio:</tspan>
+        <tspan x="0" dy="22" font-weight="700" fill="#A03878">ingeniería de producción, no código de cuaderno.</tspan>
+      </text>
+    </g>
+
+    <g transform="translate(60, 360)">
+      <rect width="240" height="36" rx="10" fill="#D6EDD8"/>
+      <text x="20" y="23" font-size="13" font-weight="500" fill="#3B7A45">📍 Nómada digital · basada en España</text>
+    </g>
+    <g transform="translate(312, 360)">
+      <rect width="300" height="36" rx="10" fill="#CFECF3"/>
+      <text x="20" y="23" font-size="13" font-weight="500" fill="#0F6A85">Abierta a ML · MLOps · AI · Senior SDET</text>
+    </g>
+
+  </g>
+</svg>

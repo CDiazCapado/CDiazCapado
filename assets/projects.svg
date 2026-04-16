@@ -1,149 +1,160 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560" role="img" aria-label="Featured projects: NomadOptima, JobKraken, Moving Optimizer, French Learning App">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Featured projects: NomadOptima, JobKraken, QA Test Agent, French Learning App">
   <defs>
     <radialGradient id="p1blob">
-      <stop offset="0%" stop-color="#46AABE" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#46AABE" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#46AABE" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#46AABE" stop-opacity="0.0"/>
     </radialGradient>
     <radialGradient id="p2blob">
-      <stop offset="0%" stop-color="#FF9178" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#FF9178" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FF9178" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#FF9178" stop-opacity="0.0"/>
     </radialGradient>
     <radialGradient id="p3blob">
-      <stop offset="0%" stop-color="#7DBA88" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#7DBA88" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#7DBA88" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7DBA88" stop-opacity="0.0"/>
     </radialGradient>
     <radialGradient id="p4blob">
-      <stop offset="0%" stop-color="#D08ABE" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#D08ABE" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#D08ABE" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#D08ABE" stop-opacity="0.0"/>
     </radialGradient>
     <linearGradient id="icon1" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#6FC8DB"/>
-      <stop offset="100%" stop-color="#46AABE"/>
+      <stop offset="0%" stop-color="#6FC8DB"/><stop offset="100%" stop-color="#46AABE"/>
     </linearGradient>
     <linearGradient id="icon2" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFAD96"/>
-      <stop offset="100%" stop-color="#FF9178"/>
+      <stop offset="0%" stop-color="#FFAD96"/><stop offset="100%" stop-color="#FF9178"/>
     </linearGradient>
     <linearGradient id="icon3" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#9BCFA4"/>
-      <stop offset="100%" stop-color="#7DBA88"/>
+      <stop offset="0%" stop-color="#9BCFA4"/><stop offset="100%" stop-color="#7DBA88"/>
     </linearGradient>
     <linearGradient id="icon4" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#E0A6D2"/>
-      <stop offset="100%" stop-color="#D08ABE"/>
+      <stop offset="0%" stop-color="#E0A6D2"/><stop offset="100%" stop-color="#D08ABE"/>
+    </linearGradient>
+    <linearGradient id="cardbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FEFDFA" stop-opacity="0.5"/>
     </linearGradient>
   </defs>
 
   <g transform="translate(0, 0)">
-    <rect x="20" y="20" width="580" height="240" rx="22" fill="#FDFBF4" stroke="rgba(70,170,190,0.15)" stroke-width="1"/>
-    <circle cx="560" cy="40" r="90" fill="url(#p1blob)">
-      <animate attributeName="cy" values="40;60;40" dur="14s" repeatCount="indefinite"/>
+    <rect x="20" y="20" width="580" height="320" rx="24" fill="url(#cardbg)" stroke="rgba(70,170,190,0.2)" stroke-width="1.5"/>
+    <circle cx="540" cy="80" r="120" fill="url(#p1blob)">
+      <animate attributeName="cy" values="80;110;50;80" dur="14s" repeatCount="indefinite"/>
     </circle>
-    <rect x="40" y="40" width="48" height="48" rx="14" fill="url(#icon1)"/>
-    <text x="64" y="72" font-family="-apple-system, 'Inter', sans-serif" font-size="24" text-anchor="middle">🧭</text>
-    <text x="100" y="58" font-family="-apple-system, 'Inter', sans-serif" font-size="20" font-weight="600" fill="#063044" letter-spacing="-0.3">NomadOptima</text>
-    <text x="100" y="78" font-family="-apple-system, 'Inter', sans-serif" font-size="13" fill="#2A5870">City-profile matching engine</text>
-    <g transform="translate(500, 44)">
-      <rect x="0" y="0" width="68" height="24" rx="12" fill="#D6EDD8"/>
-      <circle cx="14" cy="12" r="4" fill="#3B7A45"/>
-      <text x="44" y="16" font-family="-apple-system, 'Inter', sans-serif" font-size="11" font-weight="500" fill="#3B7A45" text-anchor="middle">Live</text>
+    <rect x="50" y="50" width="60" height="60" rx="16" fill="url(#icon1)"/>
+    <text x="80" y="91" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="30" text-anchor="middle">🧭</text>
+    <text x="128" y="78" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="26" font-weight="700" fill="#063044" letter-spacing="-0.5">NomadOptima</text>
+    <text x="128" y="102" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="15" fill="#2A5870">City-profile matching engine</text>
+    <g transform="translate(470, 58)">
+      <rect width="92" height="30" rx="15" fill="#D6EDD8"/>
+      <circle cx="20" cy="15" r="4" fill="#3B7A45">
+        <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="58" y="20" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="13" font-weight="500" fill="#3B7A45" text-anchor="middle">Live</text>
     </g>
-    <text x="40" y="128" font-family="-apple-system, 'Inter', sans-serif" font-size="14" fill="#2A5870">
-      <tspan x="40" dy="0">Hybrid recommender with Learning to Rank. Matches users to cities based on</tspan>
-      <tspan x="40" dy="20">lifestyle preferences, with explainable rankings via SHAP.</tspan>
+    <text x="50" y="162" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="15" fill="#2A5870">
+      <tspan x="50" dy="0">Hybrid recommender system with Learning to Rank.</tspan>
+      <tspan x="50" dy="22">Matches users to cities based on lifestyle preferences,</tspan>
+      <tspan x="50" dy="22">with explainable rankings via SHAP.</tspan>
     </text>
-    <g font-family="-apple-system, 'Inter', sans-serif" font-size="11" font-weight="500">
-      <g transform="translate(40, 180)"><rect width="74" height="26" rx="7" fill="#CFECF3"/><text x="37" y="17" fill="#0F6A85" text-anchor="middle">LightGBM</text></g>
-      <g transform="translate(124, 180)"><rect width="54" height="26" rx="7" fill="#FFECB5"/><text x="27" y="17" fill="#A06A0A" text-anchor="middle">SHAP</text></g>
-      <g transform="translate(188, 180)"><rect width="62" height="26" rx="7" fill="#D6EDD8"/><text x="31" y="17" fill="#3B7A45" text-anchor="middle">MLflow</text></g>
-      <g transform="translate(260, 180)"><rect width="66" height="26" rx="7" fill="#FFD9CC"/><text x="33" y="17" fill="#B53E22" text-anchor="middle">FastAPI</text></g>
-      <g transform="translate(336, 180)"><rect width="80" height="26" rx="7" fill="#F4E0EE"/><text x="40" y="17" fill="#A03878" text-anchor="middle">PostgreSQL</text></g>
-      <g transform="translate(426, 180)"><rect width="62" height="26" rx="7" fill="#CFECF3"/><text x="31" y="17" fill="#0F6A85" text-anchor="middle">Docker</text></g>
+    <g font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="13" font-weight="500" transform="translate(50, 248)">
+      <g><rect width="92" height="32" rx="9" fill="#CFECF3"/><text x="46" y="21" fill="#0F6A85" text-anchor="middle">LightGBM</text></g>
+      <g transform="translate(102, 0)"><rect width="66" height="32" rx="9" fill="#FFECB5"/><text x="33" y="21" fill="#A06A0A" text-anchor="middle">SHAP</text></g>
+      <g transform="translate(178, 0)"><rect width="78" height="32" rx="9" fill="#D6EDD8"/><text x="39" y="21" fill="#3B7A45" text-anchor="middle">MLflow</text></g>
+      <g transform="translate(266, 0)"><rect width="82" height="32" rx="9" fill="#FFD9CC"/><text x="41" y="21" fill="#B53E22" text-anchor="middle">FastAPI</text></g>
+      <g transform="translate(358, 0)"><rect width="106" height="32" rx="9" fill="#F4E0EE"/><text x="53" y="21" fill="#A03878" text-anchor="middle">PostgreSQL</text></g>
     </g>
-    <text x="40" y="232" font-family="-apple-system, 'Inter', sans-serif" font-size="11" font-weight="500" fill="#888780" letter-spacing="0.5">NDCG@5 = 0.9631 · 54 cities × 149 features · 270k training rows</text>
+    <text x="50" y="308" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="12" font-weight="500" fill="#888780" letter-spacing="0.4">NDCG@5 = 0.9631 · 54 cities × 149 features · 270k rows</text>
   </g>
 
   <g transform="translate(600, 0)">
-    <rect x="20" y="20" width="580" height="240" rx="22" fill="#FDFBF4" stroke="rgba(255,145,120,0.15)" stroke-width="1"/>
-    <circle cx="560" cy="40" r="90" fill="url(#p2blob)">
-      <animate attributeName="cy" values="40;60;40" dur="16s" repeatCount="indefinite"/>
+    <rect x="20" y="20" width="580" height="320" rx="24" fill="url(#cardbg)" stroke="rgba(255,145,120,0.22)" stroke-width="1.5"/>
+    <circle cx="540" cy="80" r="120" fill="url(#p2blob)">
+      <animate attributeName="cy" values="80;50;110;80" dur="16s" repeatCount="indefinite"/>
     </circle>
-    <rect x="40" y="40" width="48" height="48" rx="14" fill="url(#icon2)"/>
-    <text x="64" y="72" font-family="-apple-system, 'Inter', sans-serif" font-size="24" text-anchor="middle">🤖</text>
-    <text x="100" y="58" font-family="-apple-system, 'Inter', sans-serif" font-size="20" font-weight="600" fill="#063044" letter-spacing="-0.3">JobKraken</text>
-    <text x="100" y="78" font-family="-apple-system, 'Inter', sans-serif" font-size="13" fill="#2A5870">Multi-agent job hunting + RAG</text>
-    <g transform="translate(488, 44)">
-      <rect x="0" y="0" width="80" height="24" rx="12" fill="#FFECB5"/>
-      <circle cx="14" cy="12" r="4" fill="#A06A0A"/>
-      <text x="50" y="16" font-family="-apple-system, 'Inter', sans-serif" font-size="11" font-weight="500" fill="#A06A0A" text-anchor="middle">Building</text>
+    <rect x="50" y="50" width="60" height="60" rx="16" fill="url(#icon2)"/>
+    <text x="80" y="91" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="30" text-anchor="middle">🤖</text>
+    <text x="128" y="78" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="26" font-weight="700" fill="#063044" letter-spacing="-0.5">JobKraken</text>
+    <text x="128" y="102" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="15" fill="#2A5870">Multi-agent job hunting + RAG</text>
+    <g transform="translate(450, 58)">
+      <rect width="112" height="30" rx="15" fill="#FFECB5"/>
+      <circle cx="20" cy="15" r="4" fill="#A06A0A">
+        <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="68" y="20" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="13" font-weight="500" fill="#A06A0A" text-anchor="middle">Building</text>
     </g>
-    <text x="40" y="128" font-family="-apple-system, 'Inter', sans-serif" font-size="14" fill="#2A5870">
-      <tspan x="40" dy="0">Autonomous agents that scrape job boards, match offers to your CV, draft</tspan>
-      <tspan x="40" dy="20">tailored applications and orchestrate the pipeline end-to-end.</tspan>
+    <text x="50" y="162" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="15" fill="#2A5870">
+      <tspan x="50" dy="0">Autonomous agents that scrape job boards, match</tspan>
+      <tspan x="50" dy="22">offers to your CV, draft tailored applications and</tspan>
+      <tspan x="50" dy="22">orchestrate the pipeline end-to-end.</tspan>
     </text>
-    <g font-family="-apple-system, 'Inter', sans-serif" font-size="11" font-weight="500">
-      <g transform="translate(40, 180)"><rect width="78" height="26" rx="7" fill="#CFECF3"/><text x="39" y="17" fill="#0F6A85" text-anchor="middle">LangGraph</text></g>
-      <g transform="translate(128, 180)"><rect width="76" height="26" rx="7" fill="#FFECB5"/><text x="38" y="17" fill="#A06A0A" text-anchor="middle">ChromaDB</text></g>
-      <g transform="translate(214, 180)"><rect width="86" height="26" rx="7" fill="#D6EDD8"/><text x="43" y="17" fill="#3B7A45" text-anchor="middle">Claude API</text></g>
-      <g transform="translate(310, 180)"><rect width="66" height="26" rx="7" fill="#FFD9CC"/><text x="33" y="17" fill="#B53E22" text-anchor="middle">FastAPI</text></g>
-      <g transform="translate(386, 180)"><rect width="82" height="26" rx="7" fill="#F4E0EE"/><text x="41" y="17" fill="#A03878" text-anchor="middle">Playwright</text></g>
+    <g font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="13" font-weight="500" transform="translate(50, 248)">
+      <g><rect width="96" height="32" rx="9" fill="#CFECF3"/><text x="48" y="21" fill="#0F6A85" text-anchor="middle">LangGraph</text></g>
+      <g transform="translate(106, 0)"><rect width="96" height="32" rx="9" fill="#FFECB5"/><text x="48" y="21" fill="#A06A0A" text-anchor="middle">ChromaDB</text></g>
+      <g transform="translate(212, 0)"><rect width="104" height="32" rx="9" fill="#D6EDD8"/><text x="52" y="21" fill="#3B7A45" text-anchor="middle">Claude API</text></g>
+      <g transform="translate(326, 0)"><rect width="102" height="32" rx="9" fill="#F4E0EE"/><text x="51" y="21" fill="#A03878" text-anchor="middle">Playwright</text></g>
     </g>
-    <text x="40" y="232" font-family="-apple-system, 'Inter', sans-serif" font-size="11" font-weight="500" fill="#888780" letter-spacing="0.5">5 specialized agents · Vector search · Async orchestration</text>
+    <text x="50" y="308" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="12" font-weight="500" fill="#888780" letter-spacing="0.4">5 specialized agents · Vector search · Async orchestration</text>
   </g>
 
-  <g transform="translate(0, 280)">
-    <rect x="20" y="20" width="580" height="240" rx="22" fill="#FDFBF4" stroke="rgba(125,186,136,0.15)" stroke-width="1"/>
-    <circle cx="560" cy="240" r="90" fill="url(#p3blob)">
-      <animate attributeName="cy" values="240;220;240" dur="18s" repeatCount="indefinite"/>
+  <g transform="translate(0, 360)">
+    <rect x="20" y="20" width="580" height="320" rx="24" fill="url(#cardbg)" stroke="rgba(125,186,136,0.22)" stroke-width="1.5"/>
+    <circle cx="540" cy="280" r="120" fill="url(#p3blob)">
+      <animate attributeName="cy" values="280;250;310;280" dur="18s" repeatCount="indefinite"/>
     </circle>
-    <rect x="40" y="40" width="48" height="48" rx="14" fill="url(#icon3)"/>
-    <text x="64" y="72" font-family="-apple-system, 'Inter', sans-serif" font-size="24" text-anchor="middle">📦</text>
-    <text x="100" y="58" font-family="-apple-system, 'Inter', sans-serif" font-size="20" font-weight="600" fill="#063044" letter-spacing="-0.3">Moving Optimizer</text>
-    <text x="100" y="78" font-family="-apple-system, 'Inter', sans-serif" font-size="13" fill="#2A5870">Computer vision + 3D bin packing</text>
-    <g transform="translate(488, 44)">
-      <rect x="0" y="0" width="80" height="24" rx="12" fill="#FFECB5"/>
-      <circle cx="14" cy="12" r="4" fill="#A06A0A"/>
-      <text x="50" y="16" font-family="-apple-system, 'Inter', sans-serif" font-size="11" font-weight="500" fill="#A06A0A" text-anchor="middle">Building</text>
+    <rect x="50" y="50" width="60" height="60" rx="16" fill="url(#icon3)"/>
+    <text x="80" y="92" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="28" text-anchor="middle">🧪</text>
+    <text x="128" y="78" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="26" font-weight="700" fill="#063044" letter-spacing="-0.5">QA Test Agent</text>
+    <text x="128" y="102" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="15" fill="#2A5870">Autonomous AI agent for web testing</text>
+    <g transform="translate(450, 58)">
+      <rect width="112" height="30" rx="15" fill="#FFECB5"/>
+      <circle cx="20" cy="15" r="4" fill="#A06A0A">
+        <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="68" y="20" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="13" font-weight="500" fill="#A06A0A" text-anchor="middle">Building</text>
     </g>
-    <text x="40" y="128" font-family="-apple-system, 'Inter', sans-serif" font-size="14" fill="#2A5870">
-      <tspan x="40" dy="0">Photos of a home → detected objects → dimensions from IKEA API and web</tspan>
-      <tspan x="40" dy="20">→ optimal box count, vehicle type and trip planning with 3D bin packing.</tspan>
+    <text x="50" y="162" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="15" fill="#2A5870">
+      <tspan x="50" dy="0">Feeds a URL to a LangGraph agent that analyzes the</tspan>
+      <tspan x="50" dy="22">app, generates intelligent test cases, executes them</tspan>
+      <tspan x="50" dy="22">with Playwright and classifies failures with an LLM.</tspan>
     </text>
-    <g font-family="-apple-system, 'Inter', sans-serif" font-size="11" font-weight="500">
-      <g transform="translate(40, 180)"><rect width="66" height="26" rx="7" fill="#CFECF3"/><text x="33" y="17" fill="#0F6A85" text-anchor="middle">YOLOv8</text></g>
-      <g transform="translate(116, 180)"><rect width="60" height="26" rx="7" fill="#FFECB5"/><text x="30" y="17" fill="#A06A0A" text-anchor="middle">py3dbp</text></g>
-      <g transform="translate(186, 180)"><rect width="96" height="26" rx="7" fill="#D6EDD8"/><text x="48" y="17" fill="#3B7A45" text-anchor="middle">Vision API</text></g>
-      <g transform="translate(292, 180)"><rect width="66" height="26" rx="7" fill="#FFD9CC"/><text x="33" y="17" fill="#B53E22" text-anchor="middle">FastAPI</text></g>
-      <g transform="translate(368, 180)"><rect width="54" height="26" rx="7" fill="#F4E0EE"/><text x="27" y="17" fill="#A03878" text-anchor="middle">Redis</text></g>
+    <g font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="13" font-weight="500" transform="translate(50, 248)">
+      <g><rect width="96" height="32" rx="9" fill="#CFECF3"/><text x="48" y="21" fill="#0F6A85" text-anchor="middle">LangGraph</text></g>
+      <g transform="translate(106, 0)"><rect width="102" height="32" rx="9" fill="#FFECB5"/><text x="51" y="21" fill="#A06A0A" text-anchor="middle">Playwright</text></g>
+      <g transform="translate(218, 0)"><rect width="82" height="32" rx="9" fill="#D6EDD8"/><text x="41" y="21" fill="#3B7A45" text-anchor="middle">OpenAI</text></g>
+      <g transform="translate(310, 0)"><rect width="76" height="32" rx="9" fill="#FFD9CC"/><text x="38" y="21" fill="#B53E22" text-anchor="middle">Docker</text></g>
+      <g transform="translate(396, 0)"><rect width="78" height="32" rx="9" fill="#F4E0EE"/><text x="39" y="21" fill="#A03878" text-anchor="middle">GH CI/CD</text></g>
     </g>
-    <text x="40" y="232" font-family="-apple-system, 'Inter', sans-serif" font-size="11" font-weight="500" fill="#888780" letter-spacing="0.5">Cascade dimension resolver · 3D packing algorithm · B2B potential</text>
+    <text x="50" y="308" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="12" font-weight="500" fill="#888780" letter-spacing="0.4">Bridges 10y of QA expertise with AI agents</text>
   </g>
 
-  <g transform="translate(600, 280)">
-    <rect x="20" y="20" width="580" height="240" rx="22" fill="#FDFBF4" stroke="rgba(208,138,190,0.15)" stroke-width="1"/>
-    <circle cx="560" cy="240" r="90" fill="url(#p4blob)">
-      <animate attributeName="cy" values="240;220;240" dur="15s" repeatCount="indefinite"/>
+  <g transform="translate(600, 360)">
+    <rect x="20" y="20" width="580" height="320" rx="24" fill="url(#cardbg)" stroke="rgba(208,138,190,0.22)" stroke-width="1.5"/>
+    <circle cx="540" cy="280" r="120" fill="url(#p4blob)">
+      <animate attributeName="cy" values="280;310;250;280" dur="15s" repeatCount="indefinite"/>
     </circle>
-    <rect x="40" y="40" width="48" height="48" rx="14" fill="url(#icon4)"/>
-    <text x="64" y="72" font-family="-apple-system, 'Inter', sans-serif" font-size="24" text-anchor="middle">🇫🇷</text>
-    <text x="100" y="58" font-family="-apple-system, 'Inter', sans-serif" font-size="20" font-weight="600" fill="#063044" letter-spacing="-0.3">French Learning App</text>
-    <text x="100" y="78" font-family="-apple-system, 'Inter', sans-serif" font-size="13" fill="#2A5870">Fine-tuned LLM for learners</text>
-    <g transform="translate(488, 44)">
-      <rect x="0" y="0" width="80" height="24" rx="12" fill="#FFECB5"/>
-      <circle cx="14" cy="12" r="4" fill="#A06A0A"/>
-      <text x="50" y="16" font-family="-apple-system, 'Inter', sans-serif" font-size="11" font-weight="500" fill="#A06A0A" text-anchor="middle">Building</text>
+    <rect x="50" y="50" width="60" height="60" rx="16" fill="url(#icon4)"/>
+    <text x="80" y="91" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="30" text-anchor="middle">🇫🇷</text>
+    <text x="128" y="78" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="26" font-weight="700" fill="#063044" letter-spacing="-0.5">French Learning App</text>
+    <text x="128" y="102" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="15" fill="#2A5870">Fine-tuned LLM for Spanish learners</text>
+    <g transform="translate(450, 58)">
+      <rect width="112" height="30" rx="15" fill="#FFECB5"/>
+      <circle cx="20" cy="15" r="4" fill="#A06A0A">
+        <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="68" y="20" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="13" font-weight="500" fill="#A06A0A" text-anchor="middle">Building</text>
     </g>
-    <text x="40" y="128" font-family="-apple-system, 'Inter', sans-serif" font-size="14" fill="#2A5870">
-      <tspan x="40" dy="0">Llama 3 fine-tuned for teaching French to Spanish speakers. Multimodal</tspan>
-      <tspan x="40" dy="20">pipeline combining LLM, image generation and audio content.</tspan>
+    <text x="50" y="162" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="15" fill="#2A5870">
+      <tspan x="50" dy="0">Llama 3 fine-tuned for teaching French to Spanish</tspan>
+      <tspan x="50" dy="22">speakers. Multimodal pipeline combining LLM, image</tspan>
+      <tspan x="50" dy="22">generation and audio content.</tspan>
     </text>
-    <g font-family="-apple-system, 'Inter', sans-serif" font-size="11" font-weight="500">
-      <g transform="translate(40, 180)"><rect width="62" height="26" rx="7" fill="#CFECF3"/><text x="31" y="17" fill="#0F6A85" text-anchor="middle">Llama 3</text></g>
-      <g transform="translate(112, 180)"><rect width="44" height="26" rx="7" fill="#FFECB5"/><text x="22" y="17" fill="#A06A0A" text-anchor="middle">LoRA</text></g>
-      <g transform="translate(166, 180)"><rect width="66" height="26" rx="7" fill="#D6EDD8"/><text x="33" y="17" fill="#3B7A45" text-anchor="middle">Unsloth</text></g>
-      <g transform="translate(242, 180)"><rect width="86" height="26" rx="7" fill="#FFD9CC"/><text x="43" y="17" fill="#B53E22" text-anchor="middle">Claude API</text></g>
-      <g transform="translate(338, 180)"><rect width="96" height="26" rx="7" fill="#F4E0EE"/><text x="48" y="17" fill="#A03878" text-anchor="middle">React Native</text></g>
+    <g font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="13" font-weight="500" transform="translate(50, 248)">
+      <g><rect width="78" height="32" rx="9" fill="#CFECF3"/><text x="39" y="21" fill="#0F6A85" text-anchor="middle">Llama 3</text></g>
+      <g transform="translate(88, 0)"><rect width="60" height="32" rx="9" fill="#FFECB5"/><text x="30" y="21" fill="#A06A0A" text-anchor="middle">LoRA</text></g>
+      <g transform="translate(158, 0)"><rect width="82" height="32" rx="9" fill="#D6EDD8"/><text x="41" y="21" fill="#3B7A45" text-anchor="middle">Unsloth</text></g>
+      <g transform="translate(250, 0)"><rect width="104" height="32" rx="9" fill="#FFD9CC"/><text x="52" y="21" fill="#B53E22" text-anchor="middle">Claude API</text></g>
+      <g transform="translate(364, 0)"><rect width="118" height="32" rx="9" fill="#F4E0EE"/><text x="59" y="21" fill="#A03878" text-anchor="middle">React Native</text></g>
     </g>
-    <text x="40" y="232" font-family="-apple-system, 'Inter', sans-serif" font-size="11" font-weight="500" fill="#888780" letter-spacing="0.5">Custom fine-tuning · Multimodal pipeline · Product-ready</text>
+    <text x="50" y="308" font-family="-apple-system, 'Segoe UI', 'Inter', sans-serif" font-size="12" font-weight="500" fill="#888780" letter-spacing="0.4">Custom fine-tuning · Multimodal pipeline · Product-ready</text>
   </g>
+
 </svg>
