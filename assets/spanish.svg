@@ -52,7 +52,7 @@
     </g>
 
     <g transform="translate(60, 360)">
-      <rect width="240" height="36" rx="10" fill="#D6EDD8"/>
+      <rect width="260" height="36" rx="10" fill="#D6EDD8"/>
       <text x="20" y="23" font-size="13" font-weight="500" fill="#3B7A45">📍 Nómada digital · basada en España</text>
     </g>
     <g transform="translate(312, 360)">
