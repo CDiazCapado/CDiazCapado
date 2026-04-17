@@ -63,7 +63,7 @@
     <g transform="translate(60, 400)">
       <rect width="480" height="40" rx="20" fill="rgba(255,255,255,0.9)"/>
       <text x="24" y="26" fill="#063044" font-size="14" font-weight="500">Currently building NomadOptima + a portfolio of AI projects</text>
-      <circle cx="460" cy="20" r="4" fill="#3B7A45">
+      <circle cx="420" cy="20" r="4" fill="#3B7A45">
         <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
       </circle>
     </g>
