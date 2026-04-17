@@ -42,7 +42,7 @@
     </g>
 
     <g transform="translate(60, 262)">
-      <text fill="#2A5870" font-size="14" font-weight="400">
+      <text fill="#2A5870" font-size="16" font-weight="400">
         <tspan x="0" dy="0">Actualmente construyo </tspan>
         <tspan font-weight="600" fill="#0F6A85">NomadOptima</tspan>
         <tspan font-weight="400" fill="#2A5870"> y un portfolio de proyectos de IA (agentes,</tspan>
@@ -55,7 +55,7 @@
       <rect width="260" height="36" rx="10" fill="#D6EDD8"/>
       <text x="20" y="23" font-size="13" font-weight="500" fill="#3B7A45">📍 Nómada digital · basada en España</text>
     </g>
-    <g transform="translate(312, 360)">
+    <g transform="translate(332, 360)">
       <rect width="300" height="36" rx="10" fill="#CFECF3"/>
       <text x="20" y="23" font-size="13" font-weight="500" fill="#0F6A85">Abierta a ML · MLOps · AI · Senior SDET</text>
     </g>
