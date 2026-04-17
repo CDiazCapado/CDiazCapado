@@ -56,7 +56,7 @@
       <text x="20" y="23" font-size="13" font-weight="500" fill="#3B7A45">📍 Nómada digital · basada en España</text>
     </g>
     <g transform="translate(332, 360)">
-      <rect width="290" height="36" rx="10" fill="#CFECF3"/>
+      <rect width="280" height="36" rx="10" fill="#CFECF3"/>
       <text x="20" y="23" font-size="13" font-weight="500" fill="#0F6A85">Abierta a ML · MLOps · AI · Senior SDET</text>
     </g>
 
