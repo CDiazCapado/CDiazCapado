@@ -33,11 +33,12 @@
 </p>
 <p align="center">
   <a href="https://www.linkedin.com/in/cristinadiazcapado/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
-  <a href="mailto:diazcapadoss@gmail.com"><b>diazcapadoss@gmail.com</b></a> &nbsp;·&nbsp;
+  <a href="mailto:cdcapadowork@gmail.com"><b>cdcapadowork@gmail.com</b></a> &nbsp;·&nbsp;
   <a href="https://github.com/cdiazcapado"><b>GitHub</b></a>
 </p>
 <br>
 <p align="center">
   <img src="./assets/spanish.svg" alt="Versión en español" width="100%"/>
 </p>
+ 
  
